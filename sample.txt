@@ -19,3 +19,7 @@ http://rekognition.com/func/api/?api_key={api_key}&api_secret={api_secret}&jobs=
 
 
 chromeなら、JSONviewの拡張プラグインを入れると、見やすいです。
+
+API_KEY = '2n6a99peklDK85Oq'
+API_SECRET = 'n00v1RsgTN1oJP4o'
+
