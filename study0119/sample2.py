@@ -17,12 +17,7 @@ pic_urls = [
 pic_tags = ['nakai','kimura','katori','kusanagi','inagaki']
 
 for i in range(len(pic_urls)):
-    url = 'http://rekognition.com/func/api/'
-        + '?api_key=' + API_KEY
-        + '&api_secret=' + API_SECRET
-        + '&jobs=' + jobs
-        + '&urls=' + pic_urls[i]
-        + '&tag=' + pic_tags[i]
+    url = 'http://rekognition.com/func/api/' + '?api_key=' + API_KEY + '&api_secret=' + API_SECRET + '&jobs=' + jobs + '&urls=' + pic_urls[i] + '&tag=' + pic_tags[i]
     r = urllib2.urlopen(url)
 
     print('%d枚目の画像を追加'%(i+1))
